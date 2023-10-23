@@ -1,51 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulir</title>
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="form.html">Form</a></li>
-            <li><a href="tabel.html">Tabel</a></li>
-        </ul>
-    </nav>
+    
+    <section class="container" id="home">
+        <header class="head">
+            <img src="logo.jpg" alt="gambar raja" class="gambar">
 
-    </html><section class="form" id="form">
-        <h2 id="form-mahasiswa">Form</h2>
-        <form action="proses_pendaftaran.php" method="get">
-          <label for="nama">Nama:</label>
-          <input type="text" id="nama" name="nama" required /><br />
-    
-          <label for="nim">NIM:</label>
-          <input type="text" id="nim" name="nim" required /><br />
-    
-          <label for="prodi">Program Studi:</label>
-          <input type="text" id="prodi" name="prodi" required /><br />
-    
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required /><br />
-    
-          <label for="password">Password:</label>
-          <input type="password" id="password" name="password" required /><br />
-    
-          <label for="gender">Jenis Kelamin:</label>
-          <input type="radio" id="gender" name="gender" value="Laki-laki" required /> Laki-laki
-          <input type="radio" id="gender" name="gender" value="Perempuan" required /> Perempuan<br />
-    
-          <label for="birthdate">Tanggal Lahir:</label>
-          <input type="date" id="birthdate" name="birthdate" required /><br />
-    
-          <label for="alamat">Alamat:</label>
-          <input type="alamat" id="alamat" required /><br />
-    
-          <input type="submit" value="Submit" />
-    
-        </form>
-    </section>
-    
-</body>
+            <div class="side">
+                <h1>Formulir</h1>
+            </div>
+        </header>
+<body>
+        <nav class="navbar">
+            <a href="index.html" class="menu">Home</a>
+            <a href="form.html" class="menu">Formulir</a>
+            <a href="table.html" class="menu">Data Mahasiswa</a>
+        </nav>
+
+        <section class="form" id="form">
+            <h2 id="form-mahasiswa">Form</h2>
+            <form action="proses_pendaftaran.php" method="get">
+              <label for="nama">Nama:</label>
+              <input type="text" id="nama" name="nama" required /><br />
+      
+              <label for="nim">NIM:</label>
+              <input type="text" id="nim" name="nim" required /><br />
+      
+              <label for="prodi">Program Studi:</label>
+              <input type="text" id="prodi" name="prodi" required /><br />
+      
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required /><br />
+      
+              <label for="password">Password:</label>
+              <input type="password" id="password" name="password" required /><br />
+      
+              <label for="gender">Jenis Kelamin:</label>
+              <input type="radio" id="gender" name="gender" value="Laki-laki" required /> Laki-laki
+              <input type="radio" id="gender" name="gender" value="Perempuan" required /> Perempuan<br />
+      
+              <label for="birthdate">Tanggal Lahir:</label>
+              <input type="date" id="birthdate" name="birthdate" required /><br />
+      
+              <label for="alamat">Alamat:</label>
+              <input type="alamat" id="alamat" required /><br />
+      
+              <input type="submit" value="Submit" />
+          </form>
+        </section>
+    </body>
+
+    <footer>
+        <p>&copy; 2023 Christine Natalia</p>
+      </footer>
+</html>
